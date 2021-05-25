@@ -1,0 +1,58 @@
+/* Style de la navbar */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.list {
+    padding: 25px;
+}
+
+li a {
+    padding: 5px;
+}
+
+.navbar .logo img {
+    color: #fff;
+    margin: 1%;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+/* ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+} */
+
+.navbar .menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+
+.home {
+    display: flex;
+}

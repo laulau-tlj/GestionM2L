@@ -1,0 +1,180 @@
+
+body
+{
+	background-repeat: no-repeat;
+}
+*
+{
+	margin:0;
+}
+section .ivdi{
+	position: center center;
+}
+section{
+	height: auto;
+	background-size: auto 200%; 
+	background-repeat: no-repeat; 
+	background-position: center;
+	text-align: center;
+	padding-top: 7rem;
+	margin-bottom: 0.6rem;
+	content: center;
+
+}
+section > div, .container {
+	width: calc(100%-2rem);	
+	max-width: 1200px;
+	margin: 0 auto;
+}
+section > div > *:first-child {
+	margin-top: 0;
+
+}
+/* Des styles pour la mise en forme de la page*/
+div{
+	margin: auto;
+	width: 600px;
+	margin-bottom: 20px;
+} 
+label{
+	display: block;
+	width: 150px;
+	float: left;
+}
+ thead{
+	 background: #f39c12;
+
+ }
+ tbody{
+	 background: #c1cbd1;
+	 color: white
+ }
+ td,th{
+	 width: 100px;
+	 text-align: center;
+	 border: 1px solid white;
+ }
+ a:link {
+	 color: white;
+ }
+
+ .message{
+	 background: #d35400;
+	 color:white;
+	 padding: 5px;
+ }
+
+
+
+/*narbar / bouton / input*/
+.navbar{
+	background-color: #F3E0F7;
+}
+button
+{
+	color: rgb(83, 128, 0);
+
+}
+#btn-search
+{
+	border-radius: 0.5em;
+	height: 45px;
+	background-color: #F3E0F7;
+}
+#btn-search:hover
+{
+	color: white;
+	background-color: rgb(83, 128, 0);
+}
+#input-search:focus
+{
+	background-color: #0F021E;
+	color: white;
+
+}
+#input-search:hover
+{
+	border: #0F021E;
+}
+#input-search
+{
+	border-radius: 0.5em;
+	height: 45px;
+
+}
+.nav-item a
+{
+	text-decoration: none;
+	color: black;
+	text-decoration:none;
+	font-size: 1.1em;
+
+}
+.nav-item a:hover
+{
+	color: rgb(83, 128, 0);
+	text-decoration:none;
+	text-decoration: none;
+}
+.nav-item .dropdown-menu .dropdown-item:hover , .btn-group .dropdown-menu .dropdown-item:hover
+{
+	color: rgb(83, 128, 0);
+	background-color: #F3E0F7;
+}
+li
+{
+	list-style: none;
+}
+.btn-group .btn
+{
+	background-color: #F3E0F7;
+	color: rgb(83, 128, 0);
+	border:0.01em;
+	border-style: outset;
+}
+.btn-group .btn:hover
+{
+	background-color: rgb(83, 128, 0);
+	color: white;
+
+}
+/*pied de page*/
+.conteneur 
+{
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+footer
+{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	background-size: auto 200%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+}
+.z{
+	border-right-color: white;
+}
+
+
+section form div input
+{
+	border-radius: 0.5em;
+	height: 45px;
+}
+section form div input:hover
+{
+	border: #0F021E;
+}
+section form div input:focus
+{
+	background-color: #0F021E;
+	color: white;
+}
+

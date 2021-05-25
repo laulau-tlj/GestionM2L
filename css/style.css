@@ -1,0 +1,290 @@
+/* Style de tout le corps */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	background-size: cover;
+}
+
+/* STYLE DE LA BARRE DE NAVIGATION */
+.nav-content {
+	display: flex;
+	flex-direction: row;
+}
+
+.list, .recherche, .user {
+	padding: 25px 15px;
+}
+
+.recherche {
+	padding-left: 29%;
+}
+
+ul.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+ul.menu li {
+	float: left;
+}
+
+ ul.menu li a, .dropbtn {
+	display: inline-block;
+	color: black;
+	padding: 7px 11px;
+	text-decoration: none;
+ } 
+
+ul.menu li a:hover, .dropdown:hover .dropbtn {
+  	background-color: cyan;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  /* z-index: 1; */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  /* display: flex;
+  flex-direction: column; */
+  /* text-decoration: none; */
+  /* display: block; */
+  /* text-align: left; */
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+}
+/* .navigateur {
+    /* padding: 15px 0; */
+    /* position: fixed; */
+    /* *width: 100%; */
+    /*transition: all 0.3s ease;
+    z-index: 999;
+}
+
+.navigateur .nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-content {
+    max-width: 1300px;
+    padding: 0 75px;
+    margin: auto;
+}
+
+.sec-index {
+	margin-top: 190px;
+} */
+
+/* section .ivdi{
+	position: center center;
+}
+section{
+	height: auto;
+	background-size: auto 200%; 
+	background-repeat: no-repeat; 
+	background-position: center;
+	text-align: center;
+	padding-top: 7rem;
+	margin-bottom: 0.6rem;
+	content: center;
+
+}
+section > div, .container {
+	width: calc(100%-2rem);	
+	max-width: 1200px;
+	margin: 0 auto;
+}
+section > div > *:first-child {
+	margin-top: 0;
+
+}
+
+
+
+/*narbar / bouton / input*/
+/*.navbar{
+	background-color: #F3E0F7;
+}
+button
+{
+	color: purple;
+
+}
+#btn-search
+{
+	border-radius: 0.5em;
+	height: 45px;
+	background-color: #F3E0F7;
+}
+#btn-search:hover
+{
+	color: white;
+	background-color: purple;
+}
+#input-search:focus
+{
+	background-color: #0F021E;
+	color: white;
+
+}
+#input-search:hover
+{
+	border: #0F021E;
+}
+#input-search
+{
+	border-radius: 0.5em;
+	height: 45px;
+
+}
+.nav-item a
+{
+	text-decoration: none;
+	color: black;
+	text-decoration:none;
+	font-size: 1.1em;
+
+}
+.nav-item a:hover
+{
+	color: purple;
+	text-decoration:none;
+	text-decoration: none;
+}
+.nav-item .dropdown-menu .dropdown-item:hover , .btn-group .dropdown-menu .dropdown-item:hover
+{
+	color: purple;
+	background-color: #F3E0F7;
+}
+li
+{
+	list-style: none;
+}
+.btn-group .btn
+{
+	background-color: #F3E0F7;
+	color: purple;
+	border:0.01em;
+	border-style: outset;
+}
+.btn-group .btn:hover
+{
+	background-color: purple;
+	color: white;
+
+} */
+/*pied de page*/
+/* .conteneur 
+{
+	display: flex;
+	justify-content: space-between;
+	
+
+} */
+/* footer
+{
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	align-items: center;
+	background-size: auto 200%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+} */
+/* .z{
+	border-right-color: white;
+}
+
+
+section form div input
+{
+	border-radius: 0.5em;
+	height: 45px;
+}
+section form div input:hover
+{
+	border: #0F021E;
+}
+section form div input:focus
+{
+	background-color: #0F021E;
+	color: white;
+}
+
+.sys-reservation {
+	border: 1px solid black;
+	width: 55%;
+} */
+
+footer {
+    background: #111;
+    color: #fff;
+	height: fit-content;
+    padding: 17px 20px;
+	margin-bottom: 0;
+}
+
+footer span a {
+    color: cornflowerblue;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #616161;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+ form {
+	position: relative;
+	display: center;
+	background-color: rgba(17, 17, 17, 0.274);
+	border-radius: 10px;
+	padding: 5%;
+}
+
